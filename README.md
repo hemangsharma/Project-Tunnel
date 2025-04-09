@@ -1,8 +1,6 @@
 # Project Tunnel
 
-## Overview
-
-**Goal:** Seamlessly connect your laptop to your home network using two Raspberry Pis in a site-to-site VPN configuration that also incorporates advanced features.  
+Seamlessly connect your laptop to your home network using two Raspberry Pis in a site-to-site VPN configuration that also incorporates advanced features.  
 **Features:**  
 - **Dynamic DNS (DDNS):** Avoid hardcoding your home IP by using a DDNS service.
 - **Pi-hole:** Filter ads on your home network.
@@ -411,7 +409,3 @@ echo "Review /etc/wireguard/${WG_INTERFACE}.conf for configuration details."
    - Check WireGuard logs (`sudo wg show`).
    - Ensure DDNS is correctly updating your home IP.
    - Verify nftables rules with `sudo nft list ruleset`.
-
-By following this guide and using the provided auto-setup script, you’ll have a solid foundation for your secure, feature-rich VPN tunnel project. Feel free to iterate on the Web UI and add more monitoring or automation features as your skills grow.
-
-Happy tunneling!
